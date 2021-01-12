@@ -24,7 +24,7 @@ body {
     font-size: 1rem;
     line-height: 1.375;
     margin: 0;
-    background: #c7b39b url(images/whale.jpg);*/
+    background: #c7b39b url(images/whale.jpg);
 }
 .page__cell{
     max-width: 1200px;
@@ -57,10 +57,10 @@ body {
     float: right;
     text-align: right;
 }
-.input-wrapper { /*Класс на кнопку поиска 12.01.21*/
+.input-wrapper { /*ГЉГ«Г Г±Г± Г­Г  ГЄГ­Г®ГЇГЄГі ГЇГ®ГЁГ±ГЄГ  12.01.21*/
     margin-top: 2.5rem;
 }
-.input-wrapper { /*Кнопка поиск*/
+.input-wrapper { /*ГЉГ­Г®ГЇГЄГ  ГЇГ®ГЁГ±ГЄ*/
   width: 300px;
   margin: 0.3rem auto;
   position: relative;
@@ -96,7 +96,7 @@ input {
   font-family: Roboto, Arial, sans-serif;
   border-bottom: 3px solid #333333;
   background-color: transparent;
-} /*Кнопка поиск*/
+} /*ГЉГ­Г®ГЇГЄГ  ГЇГ®ГЁГ±ГЄ*/
 .nav{
     font-size: 1.1875rem;
 }
