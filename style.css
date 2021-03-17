@@ -28,7 +28,7 @@ body {
    /* background: url(images/Wiki.jpg);*/
 }
 .page__cell,
- section {
+.section {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 10px;
@@ -55,17 +55,27 @@ body {
     float: left;
 }
 .logo__text {
+    padding: 0.2rem;
     font-weight: 400;
     font-size: 1.3rem;
-    color: #000;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+    color: black;
+    font-style: italic;
+    border-radius: 2px 8px 2px 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: yellow;  
 }
 .logo__picture{
     max-width: 100%;
 }
 .header__contact{
+    margin: 20px 0px 0px 0px;
     float: right;
     text-align: right;
+    padding: 0.2rem;
+    font-style: italic;
+    border-radius: 2px 8px 2px 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #E6E6FA;
 }
 /*.input-wrapper { /*кнопка поиск 12.01.21
     margin-top: 2.5rem;
@@ -171,11 +181,17 @@ border-color: black;
     left: 0;
     right: 0;
 }
-.headline{
+.headline{  
+    width: 350px;
     text-align: center;
     font-size: 1.75rem;
     font-weight: 400;
     margin: 2rem 0;
+    color: black;
+    border-radius: 2px 8px 2px 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: yellow;
+    font-style: italic;
 }
 .grid__item{
     float:left;
@@ -184,7 +200,7 @@ border-color: black;
     width: 49.15%;
     position: relative;
     background-color: yellow;
-    border-radius: 15px 100px 15px 100px;
+    border-radius: 15px 70px 15px 100px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
@@ -240,7 +256,7 @@ border-color: black;
     display: flex;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
-    flex-decoration: row;
+    flex-direction: row;
 }
 .advantage__item{
     width:28%;
@@ -405,14 +421,12 @@ display: none;
 * {
     box-sizing: border-box;
  }
- .decor {
-    position:absolute;
-    max-width: 275px;
-    background: rgba(231, 48, 48, 0.801);
-    border-radius: 30px;
-    bottom: 1.5rem;
-    left: 65.5rem;
-    right: 0;
+ .decor { 
+    max-width: 530px;
+    background: yellow;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
  }
  .form-left-decoration {
     bottom: 60px;
@@ -438,17 +452,9 @@ display: none;
     top: 20px;
     right: 10px;
  }
- .circle {
-    position: absolute;
-    bottom: 80px;
-    left: -55px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: white;
- }
+ 
  .form-inner {
-    padding: 50px;
+    padding: 5px;
  }
  .form-inner input, .form-inner textarea {
     display: block;
@@ -456,7 +462,7 @@ display: none;
     padding: 0 20px;
     margin-bottom: 10px;
     background: #E9EFF6;
-    line-height: 40px;
+    line-height: 25px;
     border-width: 0;
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
@@ -477,4 +483,5 @@ display: none;
     font-weight: 500;
     font-size: 24px;
     color: #707981;
+    text-align: center;
  }
