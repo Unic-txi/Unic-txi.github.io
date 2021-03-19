@@ -18,7 +18,7 @@ html {
     font-size: 100%;
 }
 body {
-	font-family: 'Roboto', sans-serif; /* 'Fraunces', serif;*/ 
+	font-family:'Roboto', sans-serif; /* 'Fraunces', serif;*/ 
    /* font-family: 'Roboto', sans-serif;*/
     font-weight: 300;
     color: black;
@@ -118,10 +118,12 @@ body {
   background-color: transparent;
 } /*кнопка поиск*/
 .banner {
-  max-height: 1200px;
+    display: flex;
+    justify-content: center;
+ /* max-height: 1200px;*/
   margin: 1rem;
-  border-radius: 15px 100px 15px 100px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ /* border-radius: 15px 100px 15px 100px;*/
+ /* box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 .nav{
     font-size: 1rem;
